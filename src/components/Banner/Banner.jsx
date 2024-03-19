@@ -11,15 +11,43 @@ export default function Banner() {
                 <h1 className="lg:text-white text-4xl text-black lg:text-[40px] font-medium">
                     Welcome to <span className="text-[#006CE4]">AirBook</span>
                 </h1>
-                <div className="bg-white py-5 lg:py-[47px] lg:px-[53px] space-y-[14px] ">
-                    <div className="btns flex justify-between gap-x-[14px] z-50 ">
-                        <div className="space-x-[14px]">
-                            <button className="btn btn-sm">One way</button>
-                            <button className="bgb btn btn-sm">Round Trip</button>
+                <div className="bg-white py-5 px-2 lg:py-[47px] lg:px-[53px] space-y-[14px] ">
+                    <div className="btns flex justify-between space-x-1 lg:space-x-[14px] lg:gap-x-[14px] z-50 text-xs">
+                        <div className="space-x-1 lg:space-x-[14px] flex ">
+                            <button className="btn btn-sm">
+                                <span className="hidden lg:block">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="7.4" stroke="#1E1E1E" strokeOpacity="0.28" strokeWidth="1.2" />
+                                    </svg>
+                                </span>
+                                One way
+                            </button>
+                            <button className="bgb btn btn-sm">
+                                <span className="hidden lg:block">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.8">
+                                            <circle cx="8" cy="8" r="7.4" stroke="white" strokeWidth="1.2" />
+                                        </g>
+                                    </svg>
+                                </span>
+                                Round Trip
+                            </button>
                         </div>
-                        <div className="space-x-[14px]">
-                            <button className="textb btn btn-sm">1 Traveller</button>
-                            <button className="textb btn btn-sm">Economy</button>
+                        <div className="space-x-1 lg:space-x-[14px] flex ">
+                            <button className="textb btn btn-sm">1 Traveller
+                                <span className="hidden lg:block">
+                                    <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.32 0.18L7.32 2.34L3.915 5.79L0.51 2.34L0.51 0.18L3.915 3.645L7.32 0.18Z" fill="#006CE4" />
+                                    </svg>
+                                </span>
+                            </button>
+                            <button className="textb btn btn-sm">Economy
+                                <span className="hidden lg:block">
+                                    <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.32 0.18L7.32 2.34L3.915 5.79L0.51 2.34L0.51 0.18L3.915 3.645L7.32 0.18Z" fill="#006CE4" />
+                                    </svg>
+                                </span>
+                            </button>
                         </div>
                     </div>
                     <div className="flex flex-col lg:flex-row lg:gap-x-[14px] space-y-[14px] lg:space-y-0">

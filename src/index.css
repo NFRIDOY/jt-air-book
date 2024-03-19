@@ -8,6 +8,17 @@
   border: 1px solid black;
 } */
 
+/* Config */
+.bgb{
+  @apply bg-[#006CE4] text-white border-0
+}
+.textb {
+  @apply text-[#006CE4]
+}
+button {
+  @apply cursor-pointer
+}
+
 /* Fonts Poppins */
 .poppins-thin {
     font-family: "Poppins", sans-serif;

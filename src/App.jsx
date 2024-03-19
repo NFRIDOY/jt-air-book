@@ -3,6 +3,7 @@ import Banner from './components/Banner/Banner'
 import FeaturedDestinations from './components/FeaturedDestinations/FeaturedDestinations'
 import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
+import PopularAirlines from './components/PopularAirlines/PopularAirlines'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Banner />
       <FeaturedDestinations />
+      <PopularAirlines />
       <Footer />
     </div>
   )
